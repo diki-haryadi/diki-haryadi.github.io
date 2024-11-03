@@ -6,14 +6,26 @@
     <title>Diki Haryadi Blog</title>
 </head>
 <body>
-<h1>Backend | Microservices | Golang</h1>
-<iframe
-        src="https://github.com/diki-haryadi"
-        width="640"
-        height="480"
-        allow="autoplay"
-        style="border: 1px solid #000;">
-    Your browser does not support iframes.
-</iframe>
+<h2>Web masih pengembangan, main game dulu aja yak..</h2>
+<!-- Div container for the game -->
+<div id="game-container" style="width: 800px; height: 600px;">
+    <canvas id="game-canvas" width="800" height="600"></canvas>
+</div>
+<!-- Load the wasm_exec.js -->
+<script src="https://github.com/diki-haryadi/wasm/blob/main/public/wasm_exec.js"></script>
+<script>
+    const go = new Go();
+
+    // Specify the canvas element where the game will render
+    const canvas = document.getElementById("game-canvas");
+
+    // Add the canvas to the global object if necessary
+    window.canvas = canvas;
+
+    // Fetch and run the WebAssembly file
+    WebAssembly.instantiateStreaming(fetch("https://github.com/diki-haryadi/wasm/blob/main/public/flappy-ebiten.wasm"), go.importObject).then(result => {
+        go.run(result.instance);
+    });
+</script>
 </body>
 </html>
