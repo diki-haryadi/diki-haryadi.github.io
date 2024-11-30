@@ -3,7 +3,6 @@ title: 'Hi, I am Diki Haryadi 👨‍💻'
 description: Hi, I am Diki Haryadi
 permalink: '/about-me/'
 date: 2024-11-29
-header_image: '/brave2desktop.jpg'
 tags:
 - about me
 - personal
