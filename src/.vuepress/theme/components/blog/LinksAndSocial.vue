@@ -17,7 +17,7 @@
         href="https://ipfs.tech/media/"
         rel="noopener noreferrer"
         @click="trackPressKit"
-        >IPFS press kit.</a
+        >Diki Haryadipress kit.</a
       >
     </h2>
     <div>

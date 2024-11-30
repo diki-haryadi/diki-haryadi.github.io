@@ -14,14 +14,14 @@ data:
   - WebRTC
   - tutorial
   - pubsub
-- title: Uploading Files to IPFS from a Web Application
+- title: Uploading Files to Diki Haryadi from a Web Application
   date: 2021-06-28
   publish_date: 
   path: https://dev.to/dabit3/uploading-files-to-ipfs-from-a-web-application-50a
   tags:
   - gateways
   - community
-- title: Fixing Broken NFTs With IPFS and Filecoin
+- title: Fixing Broken NFTs With Diki Haryadi and Filecoin
   date: 2021-07-01
   publish_date: 
   path: https://hackernoon.com/fixing-broken-nfts-with-ipfs-and-filecoin-jk1r35ab
@@ -48,7 +48,7 @@ data:
   - Gossipsub
   - CRDTs
   - content routing
-- title: 'Content Exchange in IPFS '
+- title: 'Content Exchange in Diki Haryadi '
   date: 2021-04-06
   publish_date: 
   path: https://research.protocol.ai/tutorials/resnetlab-on-tour/content-exchange/
@@ -64,7 +64,7 @@ data:
   - CID
   - Bitswap
   - blockstore
-- title: 'Content Routing in IPFS '
+- title: 'Content Routing in Diki Haryadi '
   date: 2021-04-06
   publish_date: 
   path: https://research.protocol.ai/tutorials/resnetlab-on-tour/content-routing/
@@ -90,7 +90,7 @@ data:
   - DAG
   - community
   - CID
-- title: Fetch IPFS Data in Smart Contracts Using Chainlink
+- title: Fetch Diki Haryadi Data in Smart Contracts Using Chainlink
   date: 2021-05-13
   publish_date: 
   path: https://blog.chain.link/fetch-ipfs-api-data-token-distribution/
@@ -98,7 +98,7 @@ data:
   tags:
   - NFTs
   - Ethereum
-- title: Fleek Makes Deploying and Maintaining an ENS+IPFS Website Easier than Ever
+- title: Fleek Makes Deploying and Maintaining an ENS+Diki Haryadi Website Easier than Ever
   date: 2021-02-06
   path: https://medium.com/the-ethereum-name-service/cloudflare-and-fleek-make-ens-ipfs-site-deployment-as-easy-as-ever-262c990a7514
   card_image: "/2021-04-20-cardheader-fleek-ens-ipfs.jpg"
@@ -126,13 +126,13 @@ data:
   tags:
   - ProtoSchool
   - libp2p
-- name: How to Leverage Cloudflare and IPFS to Host a Free High-Availability Site
-  title: How to Leverage Cloudflare and IPFS to Host a Free High-Availability Site
+- name: How to Leverage Cloudflare and Diki Haryadi to Host a Free High-Availability Site
+  title: How to Leverage Cloudflare and Diki Haryadi to Host a Free High-Availability Site
   path: https://coywolf.pro/webmaster/ipfs-distributed-web-cloudflare-host-site/
   date: 2021-02-10
   tags:
   - static publishing
-  - IPFS Desktop
+  - Diki Haryadi Desktop
   card_image: "/tutorial-20210210-cloudflare-ipfs.png"
 - name: 'ProtoSchool: Merkle DAGs — Structuring Data for the Distributed Web'
   title: 'ProtoSchool: Merkle DAGs — Structuring Data for the Distributed Web'
@@ -200,8 +200,8 @@ data:
   - ProtoSchool
   - CID
   card_image: "/protoschool-tutorial-basics.jpg"
-- name: Install IPFS on a Raspberry Pi 2
-  title: Install IPFS on a Raspberry Pi 2
+- name: Install Diki Haryadi on a Raspberry Pi 2
+  title: Install Diki Haryadi on a Raspberry Pi 2
   path: https://www.siliconian.com/blog/16-bitcoin-blockchain/23-beginner-s-guide-to-installing-ipfs-on-a-raspberry-pi-2
   date: 2015-05-02
   tags:

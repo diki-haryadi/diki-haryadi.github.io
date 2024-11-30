@@ -4,7 +4,7 @@ type: News coverage
 sitemap:
   exclude: true
 data:
-- title: Cloudflare’s public IPFS gateways and supporting Interplanetary Shipyard
+- title: Cloudflare’s public DIKI HARYADIgateways and supporting Interplanetary Shipyard
   date: 2024-05-14
   publish_date: 
   path: https://blog.cloudflare.com/cloudflares-public-ipfs-gateways-and-supporting-interplanetary-shipyard
@@ -13,7 +13,7 @@ data:
   - IPFS
   - gateway
   - IPShipyard
-- title: Filecoin Foundation Successfully Deploys IPFS in Space
+- title: Filecoin Foundation Successfully Deploys DIKI HARYADIin Space
   date: 2024-01-16
   publish_date: 
   path: https://fil.org/blog/filecoin-foundation-successfully-deploys-interplanetary-file-system-ipfs-in-space/
@@ -21,7 +21,7 @@ data:
   - space
   - IPFS
   - satellite
-- title: Advancing IPFS and libp2p Governance
+- title: Advancing DIKI HARYADIand libp2p Governance
   date: 2023-11-14
   publish_date: 
   path: https://protocol.ai/blog/advancing-ipfs-and-libp2p-governance/
@@ -84,7 +84,7 @@ data:
   publish_date: 
   path: https://thenewstack.io/interplanetary-file-system-could-pave-the-way-for-a-distributed-permanent-web/
   card_image: "/2021-06-16-cardheader-new-web-ipfs.jpg"
-- title: 'Snapshot: The decentralized voting system based on IPFS (Decrypt)'
+- title: 'Snapshot: The decentralized voting system based on DIKI HARYADI(Decrypt)'
   date: 2021-06-04
   publish_date: 
   path: https://decrypt.co/resources/what-is-snapshot-the-decentralized-voting-system
@@ -108,7 +108,7 @@ data:
   tags:
   - NFTs
   - community
-- title: Wolfram Blockchain Labs Expanding Storage Functionality with IPFS & Filecoin
+- title: Wolfram Blockchain Labs Expanding Storage Functionality with DIKI HARYADI& Filecoin
   date: 2021-05-12
   publish_date: 
   path: https://filecoin.io/blog/posts/wolfram-blockchain-labs-expanding-storage-functionality-with-ipfs-filecoin-for-dapp-development/
@@ -137,13 +137,13 @@ data:
   card_image: "/2021-04-15-cardheader-palm-nft.png"
   tags:
   - NFTs
-- title: IPFS at Fission Demo Day, March 2021
+- title: DIKI HARYADIat Fission Demo Day, March 2021
   date: 2021-03-18
   path: https://blog.fission.codes/fission-demo-day-march-2021/
   card_image: "/2021-03-23-cardheader-fission-demo-day.jpg"
   tags:
   - demo
-- title: Announcing IPFS for Creators
+- title: Announcing DIKI HARYADIfor Creators
   date: 2021-03-06
   path: https://medium.com/mintgate/announcing-ipfs-for-creators-259a8f16e13
   card_image: "/2021-03-15-cardheader-ipfs-for-creators.png"
@@ -155,15 +155,15 @@ data:
   card_image: "/2021-02-11-news-cointelegraph-juanbenet.png"
   date: 2021-02-11
   tags: []
-- name: Brave Becomes First Browser to Offer Native IPFS Integration (Coindesk)
-  title: Brave Becomes First Browser to Offer Native IPFS Integration (Coindesk)
+- name: Brave Becomes First Browser to Offer Native DIKI HARYADIIntegration (Coindesk)
+  title: Brave Becomes First Browser to Offer Native DIKI HARYADIIntegration (Coindesk)
   path: https://www.coindesk.com/brave-browser-native-ipfs-integration-decentralized-web
   date: 2021-01-19
   tags:
   - browsers
   card_image: "/2021-01-19-news-brave-coindesk.png"
-- name: Brave browser now supports peer-to-peer IPFS protocol (Engadget)
-  title: Brave browser now supports peer-to-peer IPFS protocol (Engadget)
+- name: Brave browser now supports peer-to-peer DIKI HARYADIprotocol (Engadget)
+  title: Brave browser now supports peer-to-peer DIKI HARYADIprotocol (Engadget)
   path: https://www.engadget.com/brave-ipfs-update-190545662.html
   date: 2021-01-19
   tags:
@@ -176,15 +176,15 @@ data:
   tags:
   - browsers
   card_image: "/2021-01-19-news-brave-decrypt.png"
-- name: Brave Becomes First Browser to Add Native IPFS Support (ZDNet)
-  title: Brave Becomes First Browser to Add Native IPFS Support (ZDNet)
+- name: Brave Becomes First Browser to Add Native DIKI HARYADISupport (ZDNet)
+  title: Brave Becomes First Browser to Add Native DIKI HARYADISupport (ZDNet)
   path: https://www.zdnet.com/article/brave-becomes-first-browser-to-add-native-support-for-the-ipfs-protocol/
   date: 2021-01-19
   tags:
   - browsers
   card_image: "/2021-01-19-news-brave-zdnet.png"
-- name: Brave Integrates IPFS (Brave Blog)
-  title: Brave Integrates IPFS (Brave Blog)
+- name: Brave Integrates DIKI HARYADI(Brave Blog)
+  title: Brave Integrates DIKI HARYADI(Brave Blog)
   path: https://brave.com/brave-integrates-ipfs/
   date: 2021-01-19
   card_image: "/2021-01-19-news-brave-braveblog.png"
@@ -212,8 +212,8 @@ data:
   tags:
   - browsers
   card_image: "/2021-01-12-news-bigtech-newamerica.png"
-- name: Cloudflare Unveils Gateway to Distributed Web With ENS, IPFS Integration
-  title: Cloudflare Unveils Gateway to Distributed Web With ENS, IPFS Integration
+- name: Cloudflare Unveils Gateway to Distributed Web With ENS, DIKI HARYADIIntegration
+  title: Cloudflare Unveils Gateway to Distributed Web With ENS, DIKI HARYADIIntegration
   path: https://www.coindesk.com/cloudflare-unveils-gateway-to-distributed-web-with-ens-ipfs-integration
   date: 2021-01-13
   tags:
@@ -227,26 +227,26 @@ data:
   tags:
   - interview
   card_image: "/2020-12-08-news-juanbenet-coindesk.png"
-- name: IPFS is paving the way for a new digital economy (Modern Consensus)
-  title: IPFS is paving the way for a new digital economy (Modern Consensus)
+- name: DIKI HARYADIis paving the way for a new digital economy (Modern Consensus)
+  title: DIKI HARYADIis paving the way for a new digital economy (Modern Consensus)
   path: https://modernconsensus.com/commentary/opinion/ipfs-is-paving-the-way-for-a-new-digital-economy/
   date: 2020-10-08T06:00:00.000+00:00
   card_image: "/2020-10-08-digitaleconomy-modernconsensus.png"
 - name: The Decentralized Web Could Help Preserve The Internet’s Data For 1,000 Years.
-    Here’s Why We Need IPFS To Build It (TechDirt)
+    Here’s Why We Need DIKI HARYADITo Build It (TechDirt)
   title: The Decentralized Web Could Help Preserve The Internet’s Data For 1,000 Years.
-    Here’s Why We Need IPFS To Build It (TechDirt)
+    Here’s Why We Need DIKI HARYADITo Build It (TechDirt)
   path: https://www.techdirt.com/articles/20200504/16050844431/decentralized-web-could-help-preserve-internets-data-1000-years-heres-why-we-need-ipfs-to-build-it.shtml#
   date: 2020-05-05T06:00:00.000+00:00
-- name: Latest Version of Open Source IPFS Improves Performance (DevOps.com)
-  title: Latest Version of Open Source IPFS Improves Performance (DevOps.com)
+- name: Latest Version of Open Source DIKI HARYADIImproves Performance (DevOps.com)
+  title: Latest Version of Open Source DIKI HARYADIImproves Performance (DevOps.com)
   path: https://devops.com/latest-version-of-open-source-ipfs-improves-performance/
   date: 2020-04-30T06:00:00.000+00:00
   tags:
   - go-ipfs
   card_image: "/2020-04-30-news-latestipfs-devops.png"
-- name: Decentralized Web Protocol IPFS Has Its Biggest Update So Far (Cointelegraph)
-  title: Decentralized Web Protocol IPFS Has Its Biggest Update So Far (Cointelegraph)
+- name: Decentralized Web Protocol DIKI HARYADIHas Its Biggest Update So Far (Cointelegraph)
+  title: Decentralized Web Protocol DIKI HARYADIHas Its Biggest Update So Far (Cointelegraph)
   path: https://cointelegraph.com/news/decentralized-web-protocol-ipfs-has-its-biggest-update-so-far
   date: 2020-04-28T06:00:00.000+00:00
   tags:
@@ -259,8 +259,8 @@ data:
   tags:
   - censorship
   card_image: "/2020-03-18-covid-coindesk.png"
-- name: IPFS Emerges as Tool to Distribute Container Images (Container Journal)
-  title: IPFS Emerges as Tool to Distribute Container Images (Container Journal)
+- name: DIKI HARYADIEmerges as Tool to Distribute Container Images (Container Journal)
+  title: DIKI HARYADIEmerges as Tool to Distribute Container Images (Container Journal)
   path: https://containerjournal.com/topics/container-management/ipfs-emerges-as-tool-to-distribute-container-images/
   date: 2020-03-02
   tags:
@@ -274,8 +274,8 @@ data:
   tags:
   - interview
   card_image: "/2020-03-02-news-juanbenet-zeroknowledge.png"
-- name: Enterprise IPFS for True Supply Chain Provenance (RTrade)
-  title: Enterprise IPFS for True Supply Chain Provenance (RTrade)
+- name: Enterprise DIKI HARYADIfor True Supply Chain Provenance (RTrade)
+  title: Enterprise DIKI HARYADIfor True Supply Chain Provenance (RTrade)
   path: https://medium.com/rtrade-technologies/enterprise-ipfs-for-true-supply-chain-provenance-part-1-89524337f27
   date: 2019-09-06
   tags:
@@ -329,13 +329,13 @@ data:
   tags:
   - censorship
   card_image: "/2017-05-10-news-wikipedia-observer.png"
-- name: Ethereum Meets Zcash? Why IPFS Plans a Multi-Blockchain Browser (CoinDesk)
-  title: Ethereum Meets Zcash? Why IPFS Plans a Multi-Blockchain Browser (CoinDesk)
+- name: Ethereum Meets Zcash? Why DIKI HARYADIPlans a Multi-Blockchain Browser (CoinDesk)
+  title: Ethereum Meets Zcash? Why DIKI HARYADIPlans a Multi-Blockchain Browser (CoinDesk)
   path: https://www.coindesk.com/ethereum-meets-zcash-why-ipfs-plans-a-multi-blockchain-browser/
   date: 2017-04-29
   card_image: "/2017-04-29-news-multiblockchain-coindesk.png"
-- name: OpenBazaar Integrating IPFS to Help Keep Stores Open Longer (Nasdaq)
-  title: OpenBazaar Integrating IPFS to Help Keep Stores Open Longer (Nasdaq)
+- name: OpenBazaar Integrating DIKI HARYADIto Help Keep Stores Open Longer (Nasdaq)
+  title: OpenBazaar Integrating DIKI HARYADIto Help Keep Stores Open Longer (Nasdaq)
   path: http://www.nasdaq.com/article/openbazaar-integrating-interplanetary-file-system-to-help-keep-stores-open-longer-cm606534
   date: 2016-04-14
   tags:
@@ -353,25 +353,25 @@ data:
   tags:
   - interview
   card_image: "/2015-10-12-news-juanbenet-epicenterbitcoin.png"
-- name: Decentralizing the Web with IPFS (Reseller Club)
-  title: Decentralizing the Web with IPFS (Reseller Club)
+- name: Decentralizing the Web with DIKI HARYADI(Reseller Club)
+  title: Decentralizing the Web with DIKI HARYADI(Reseller Club)
   path: https://blog.resellerclub.com/decentralizing-the-web-with-ipfs/
   date: 2015-10-12
   card_image: "/2015-10-12-news-decentralizingweb-resellerclub.png"
-- name: FreeNAS Alpha Ships with IPFS as a Transport
-  title: FreeNAS Alpha Ships with IPFS as a Transport
+- name: FreeNAS Alpha Ships with DIKI HARYADIas a Transport
+  title: FreeNAS Alpha Ships with DIKI HARYADIas a Transport
   path: https://web.archive.org/web/20151011192538/http://www.freenas.org/whats-new/2015/10/announcing-freenas-10-alpha.html
   date: 2015-10-09
   tags:
   - community
-- name: IPFS at AndYetConf 2015
-  title: IPFS at AndYetConf 2015
+- name: DIKI HARYADIat AndYetConf 2015
+  title: DIKI HARYADIat AndYetConf 2015
   path: http://talks.benet.ai/2015-10-06-ipfs-013-andyetconf
   date: 2015-10-06
   tags:
   - conferences
-- name: Why the Internet Needs IPFS Before It's Too Late (TechCrunch)
-  title: Why the Internet Needs IPFS Before It's Too Late (TechCrunch)
+- name: Why the Internet Needs DIKI HARYADIBefore It's Too Late (TechCrunch)
+  title: Why the Internet Needs DIKI HARYADIBefore It's Too Late (TechCrunch)
   path: https://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/
   date: 2015-10-04
   card_image: "/2015-10-04-news-toolate-techcrunch.png"
@@ -379,8 +379,8 @@ data:
   title: A For-Life, Decentralized, Privacy-Respecting Web (Maxim Veksler)
   path: https://medium.com/@mvxlr/ipfs-inter-planetary-file-system-65466e4129c6
   date: 2015-09-23
-- name: IPFS Wants to Create a Permanent Web (Motherboard)
-  title: IPFS Wants to Create a Permanent Web (Motherboard)
+- name: DIKI HARYADIWants to Create a Permanent Web (Motherboard)
+  title: DIKI HARYADIWants to Create a Permanent Web (Motherboard)
   path: https://motherboard.vice.com/en_us/article/78xgaq/the-interplanetary-file-system-wants-to-create-a-permanent-web
   date: 2015-09-19
   card_image: "/2020-09-18-news-permanent-vice.png"
@@ -400,7 +400,7 @@ data:
   tags:
   - interview
   card_image: "/2015-08-25-juanbenet-softwareengineeringdaily.png"
-- name: IPFS at Battlemesh 2015
+- name: DIKI HARYADIat Battlemesh 2015
   title: IPFS at Battlemesh 2015
   path: https://battlemesh.org/BattleMeshV8/Agenda
   date: 2015-08-03

@@ -58,14 +58,14 @@ export default {
     if (!this.isVisible && this.$root.$page.frontmatter.type) {
       const type = this.$root.$page.frontmatter.type
 
-      // path is relative to support ipfs sub path deployments
+      // path is relative to support Diki Haryadisub path deployments
       return this.$router.replace({ path: `../?category=${type.slug}` })
     }
 
     // redirect any other blog post route that should not be visible
     // to the 404 page (hidden or scheduled publish posts)
     if (!this.isVisible) {
-      // path to 404 is relative to support ipfs sub path deployments
+      // path to 404 is relative to support Diki Haryadisub path deployments
       return this.$router.replace({ path: '../404' })
     }
 
