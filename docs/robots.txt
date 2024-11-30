@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https:/blog.dikiharyadi.com/sitemap.xml
+Host: https://blog.dikiharyadi.com
