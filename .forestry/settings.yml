@@ -18,7 +18,7 @@ sections:
   label: Blog posts
   create: documents
   match: "**/*"
-  exclude: "{academicpapers,events,newscoverage,releasenotes,tutorials,videos}.md"
+  exclude: "{academicpapers,events,newscoverage,releasenotes,tutorials,videos,games}.md"
   templates:
   - blog-post
 - type: directory
@@ -56,6 +56,13 @@ sections:
   match: "**/videos.md"
   templates:
   - newslinks
+- type: directory
+  path: src/_blog
+  label: Game
+  create: none
+  match: "**/games.md"
+  templates:
+    - newslinks
 - type: heading
   label: Translations
 - type: directory

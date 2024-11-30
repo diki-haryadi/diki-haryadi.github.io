@@ -37,6 +37,29 @@
             />
           </div>
         </div>
+        <div
+            v-if="frontmatter.type.slug === 'game'"
+            class="cover embed-responsive embed-responsive-og"
+            @click="handleVideoClick"
+        >
+          <LazyImage
+              class="h-full embed-responsive-item transform hover:scale-105 duration-500 ease-in-out"
+              img-class="w-full h-full object-cover"
+              itemprop="image"
+              :alt="title"
+              src-placeholder="/card-placeholder.png"
+              :src="thumbnailPath"
+          />
+          <div
+              class="absolute top-0 flex justify-center items-center w-full h-full bg-black bg-opacity-25"
+          >
+            <SVGIcon
+                name="play"
+                title="Play"
+                :class-list="['w-16', 'h-16', 'fill-current']"
+            />
+          </div>
+        </div>
         <div v-else class="cover embed-responsive embed-responsive-og">
           <LazyImage
             class="h-full embed-responsive-item transform hover:scale-105 duration-500 ease-in-out"

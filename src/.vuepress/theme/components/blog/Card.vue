@@ -42,6 +42,8 @@ export default {
         case 'Ecosystem content':
         case 'Video':
           return LinkCard
+        case 'Game':
+          return LinkCard
 
         default:
           return RegularCard

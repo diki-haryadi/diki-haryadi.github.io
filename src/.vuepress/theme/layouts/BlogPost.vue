@@ -85,7 +85,7 @@ export default {
     this.showComments =
       !!ipfsPathPrefix ||
       window.location.hostname.includes('.ipns.localhost') ||
-      window.location.hostname === 'blog.ipfs.tech' ||
+      window.location.hostname === 'dikiharyadi.com' ||
       window.location.hostname === 'dikiharyadi.com.on.fleek.co' ||
       window.location.hostname === 'dikiharyadi.com-staging.on.fleek.co'
   },

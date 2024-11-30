@@ -1,7 +1,7 @@
 'use strict'
 
 /**
-    The ipfs.io website requests for a blog.ipfs.tech/news.json file
+    The ipfs.io website requests for a dikiharyadi.com/news.json file
     with the latest 3 news.
 */
 

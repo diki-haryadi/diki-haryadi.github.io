@@ -1,6 +1,6 @@
 ---
 title: Games
-type: Video
+type: Game
 sitemap:
   exclude: true
 data:
@@ -10,8 +10,8 @@ data:
   path: https://wasm.haryadi.my.id/
   tags:
   - Games
-  - wasm
-  - go
+  - Wasm
+  - Go
 
 
 ---

@@ -7,7 +7,7 @@
 
 <script>
 const safePermalink = (permalink, date) => {
-  let domain = 'https://blog.ipfs.tech/'
+  let domain = 'https://dikiharyadi.com/'
   try {
     // Use old domain for legacy comment theads
     // created before we switched to the new domain

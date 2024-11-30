@@ -34,7 +34,7 @@ module.exports = [
     'script',
     {
       defer: true,
-      'data-domain': 'blog.ipfs.tech',
+      'data-domain': 'dikiharyadi.com',
       src: 'https://plausible.io/js/plausible.js',
     },
   ],
