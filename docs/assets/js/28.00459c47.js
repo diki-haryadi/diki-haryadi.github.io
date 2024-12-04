@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{389:function(s,n,t){"use strict";t.r(n);var p=t(4),l=Object(p.a)({},(function(s,n){return n.props.isExternal?s("span",[s("span",{staticClass:"mr-4"},[n._v(n._s(n.props.title))]),s("OutboundLink",{staticClass:"-ml-4 pl-1"})],1):s("span",[n._v(n._s(n.props.title))])}),[],!0,null,null,null);n.default=l.exports}}]);
