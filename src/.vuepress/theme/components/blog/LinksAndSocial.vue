@@ -14,10 +14,10 @@
       an item or view the
       <a
         class="text-blueGreen hover:underline"
-        href="https://ipfs.tech/media/"
+        href="https://dikiharyadi.com/media/"
         rel="noopener noreferrer"
         @click="trackPressKit"
-        >Diki Haryadipress kit.</a
+        >Diki Haryadi press kit.</a
       >
     </h2>
     <div>

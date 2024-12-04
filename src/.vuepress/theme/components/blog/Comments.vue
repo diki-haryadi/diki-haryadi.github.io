@@ -13,7 +13,7 @@ const safePermalink = (permalink, date) => {
     // created before we switched to the new domain
     // https://github.com/ipfs/ipfs-blog/issues/417
     if (new Date(date) < new Date('2022-08-15')) {
-        domain = 'https://blog.ipfs.io/'
+        domain = 'https://dikiharyadi.com/'
     }
   } catch (e) {
     console.error('unable to parse this.$frontmatter.date', e)
@@ -28,12 +28,12 @@ export default {
   components: {},
   computed: {
     embedSrc() {
-      return `https://discuss.ipfs.tech/embed/comments?embed_url=${safePermalink(this.$frontmatter.permalink, this.$frontmatter.date)}`
+      return `https://discuss.dikiharyadi.com/embed/comments?embed_url=${safePermalink(this.$frontmatter.permalink, this.$frontmatter.date)}`
     },
   },
   mounted() {
     window.DiscourseEmbed = {
-      discourseUrl: 'https://discuss.ipfs.tech/',
+      discourseUrl: 'https://discuss.dikiharyadi.com/',
       discourseEmbedUrl: safePermalink(this.$frontmatter.permalink, this.$frontmatter.date),
       discourseReferrerPolicy: 'strict-origin-when-cross-origin', // https://meta.discourse.org/t/embed-discourse-comments-on-another-website-via-javascript/31963#setting-the-referrer-policy-7
     }
