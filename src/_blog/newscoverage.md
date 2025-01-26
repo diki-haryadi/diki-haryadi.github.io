@@ -10,7 +10,6 @@ data:
   path: https://github.com/diki-haryadi/clone-tokopedia.com
   tags:
     - Microservice
-    - Wasm
     - Go
 
 ---
