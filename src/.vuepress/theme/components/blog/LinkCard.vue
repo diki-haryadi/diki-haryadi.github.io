@@ -60,7 +60,7 @@
             />
           </div>
         </div>
-        <div v-else class="cover embed-responsive embed-responsive-og">
+        <!-- <div v-else class="cover embed-responsive embed-responsive-og">
           <LazyImage
             class="h-full embed-responsive-item transform hover:scale-105 duration-500 ease-in-out"
             img-class="h-full object-cover"
@@ -73,9 +73,9 @@
                 : `/${frontmatter.type.slug}-placeholder.png`
             "
           />
-        </div>
+        </div> -->
       </UnstyledLink>
-      <div class="p-4 flex flex-grow flex-col">
+      <div class="p-4 flex flex flex-col">
         <div class="flex flex-grow">
           <PostMeta
             :category="frontmatter.type"

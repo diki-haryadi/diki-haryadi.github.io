@@ -4,13 +4,12 @@ type: Video
 sitemap:
   exclude: true
 data:
-- title: 'Software Engineer Interview By Leonard Thiele'
-  date: 2024-11-30
+- title: 'Big O Notation'
+  date: 2025-01-25
   publish_date: 2024-09-04T12:00:00+00:00
-  path: https://www.youtube.com/watch?v=-mHqJuPXcgY&list=PLD7ZaVjV4w05WHTDooFprJzUJ8BBvoRaZ
+  path: https://www.youtube.com/watch?v=Mo4vesaut8g&t=394s
   tags:
-  - interview
-  - tutorial
-  - guide
+  - fundamental
+  - DSA
 
 ---
