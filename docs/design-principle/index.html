@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SOLID Principles | Tech Blog, Microservices, Backend Development &amp; more</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#16161F">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <script defer="true" data-domain="dikiharyadi.com" src="https://plausible.io/js/plausible.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+    <link rel="alternate" type="application/rss+xml" href="https://blog.dikiharyadi.com/index.xml" title="Tech Blog, Microservices, Backend Development &amp; more RSS Feed">
+    <meta name="description" content="Building Maintainable Software Systems">
+    <meta property="article:published_time" content="2025-01-26T00:00:00.000Z">
+    <meta property="article:modified_time" content="2025-01-26T06:46:01.000Z">
+    <meta property="og:site_name" content="Tech Blog, Microservices, Backend Development &amp; more">
+    <meta property="og:title" content="SOLID Principles">
+    <meta property="og:description" content="Building Maintainable Software Systems">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://blog.dikiharyadi.com/design-principle/">
+    <meta property="og:image" content="https://blog.dikiharyadi.com/assets/img/solid.86244f74.png">
+    <meta name="twitter:title" content="SOLID Principles">
+    <meta name="twitter:description" content="Building Maintainable Software Systems">
+    <meta name="twitter:url" content="https://blog.dikiharyadi.com/design-principle/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://blog.dikiharyadi.com/assets/img/solid.86244f74.png">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="[object Object]">
+    <meta property="article:tag" content="[object Object]">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#16161F">
+    <meta name="msapplication-TileColor" content="#156ff7">
+    <meta name="apple-mobile-web-app-title" content="Diki HaryadiBlog &amp; News">
+    <meta name="application-name" content="Diki HaryadiBlog &amp; News">
+    <link href="https://blog.dikiharyadi.com/design-principle/" rel="canonical" />
+    <link rel="preload" href="/assets/css/0.styles.f0fb443e.css" as="style"><link rel="preload" href="/assets/js/app.e15ac4b2.js" as="script"><link rel="preload" href="/assets/js/4.081b54dc.js" as="script"><link rel="preload" href="/assets/js/34.84fbf56a.js" as="script">
+    <link rel="stylesheet" href="/assets/css/0.styles.f0fb443e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="flex flex-col min-h-screen"><nav class="fixed top-0 inset-x-0 transition duration-300 ease-out transform z-50 text-white" data-v-70503ace><div class="grid-margins" data-v-70503ace><div class="flex justify-between items-center h-20" data-v-70503ace><a href="https://dikiharyadi.com/" class="hover:opacity-75 transition transition-opacity duration-300 ease-in-out mobile-list-item" data-v-70503ace><h3 class="text-2xl" data-v-70503ace>Diki Haryadi</h3></a> <ul class="nav__link-list hidden md:flex justify-between w-full max-w-lg ml-8" data-v-70503ace><li class="nav__link-item first:m-0 font-semibold" data-v-70503ace><a href="/about-me/" class="nav__link font-display font-medium" data-v-70503ace>
+  About Me
+</a></li><li class="nav__link-item first:m-0 font-semibold" data-v-70503ace><a href="/projects/" class="nav__link font-display font-medium" data-v-70503ace>
+  Projects
+</a></li><li class="nav__link-item first:m-0 font-semibold" data-v-70503ace><a href="/games/" class="nav__link font-display font-medium" data-v-70503ace>
+  Games
+</a></li><li class="nav__link-item first:m-0 font-semibold" data-v-70503ace><a href="/" class="nav__link font-display font-medium" data-v-70503ace>
+  Blog
+</a></li></ul> <button aria-label="Toggle Mobile Menu" class="sm:visible md:hidden mobile-list-item" data-v-70503ace><div class="hamburger-icon w-8 h-8" data-v-70503ace></div></button></div></div></nav> <div data-v-f7b1bc76><!----></div> <main class="flex flex-col flex-grow"><div class="flex flex-col flex-grow"> <article itemscope="itemscope" itemtype="https://schema.org/BlogPosting"><div><div class="bg-gradient-6 text-white"><div class="pt-20 pb-10 grid-margins max-w-6xl"><div class="flex mt-8"><div><!----> <div class="inline mr-1"><a href="/" class="text-blueGreenLight hover:underline">
+        Blog &amp; news
+      </a></div></div></div> <div class="grid grid-cols-1 md:grid-cols-2 pt-4"><div class="flex flex-col md:pr-8"><h1 class="type-h1">SOLID Principles</h1> <div class="flex flex-row flex-wrap"></div> <time pubdate itemprop="datePublished" datetime="2025-01-26T00:00:00.000Z" class="text-gray">
+            26 January 2025
+          </time></div> <div class="mt-4 md:mt-0"><div data-v-5f678761><img src="" alt="SOLID Principles" sizes="" class="v-lazy-image object-contain rounded w-full" data-v-5f678761> <!----></div></div></div></div></div> <div class="grid-margins pt-8 flex flex-wrap justify-between items-center max-w-5xl px-2 sm:px-6 md:px-0"><div itemprop="keywords" class="tags flex flex-wrap text-sm text-gray-dark"><a href="/?tags=blog" rel="nofollow" class="post-tag leading-none p-1 mr-1 rounded cursor-pointer transition duration-300 ease-in-out bg-white text-charcoal hover:bg-charcoalMuted hover:text-white my-1">
+  #blog
+</a></div> <div class="flex my-1 text-sm text-gray-dark">
+      Share this item:
+      <div class="flex max-w-3xl ml-2"><a href="javascript:void(0)" class="mr-1 last:mr-0 share-network-twitter"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--twitter-icon" aria-hidden="false" viewBox="0 0 24 24" class="w-6 h-6 opacity-50 fill-current text-blueGreen hover:opacity-100 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--twitter-icon"><title id="svg-title--twitter-icon">Twitter</title> <use href="#twitter-icon"></use></svg></a><a href="javascript:void(0)" class="mr-1 last:mr-0 share-network-facebook"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--facebook-icon" aria-hidden="false" viewBox="0 0 35 35" class="w-6 h-6 opacity-50 fill-current text-blueGreen hover:opacity-100 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--facebook-icon"><title id="svg-title--facebook-icon">Facebook</title> <use href="#facebook-icon"></use></svg></a></div></div></div></div> <div class="grid-margins max-w-5xl"><!----> <div itemprop="articleBody" class="blog type-rich mb-10 mt-4 pt-4 border-t-2 border-gray border-opacity-25 px-2 sm:px-6 md:px-0 content__default"><h2 id="table-of-contents"><a href="#table-of-contents" class="header-anchor">#</a> Table of Contents</h2> <ul><li><a href="#solid-principles-the-foundation-of-clean-code">SOLID Principles: The Foundation of Clean Code</a> <ul><li><a href="#single-responsibility-principle-srp">Single Responsibility Principle (SRP)</a></li> <li><a href="#open-closed-principle-ocp">Open-Closed Principle (OCP)</a></li> <li><a href="#liskov-substitution-principle-lsp">Liskov Substitution Principle (LSP)</a></li> <li><a href="#interface-segregation-principle-isp">Interface Segregation Principle (ISP)</a></li> <li><a href="#dependency-inversion-principle-dip">Dependency Inversion Principle (DIP)</a></li> <li><a href="#real-world-benefits">Real-World Benefits</a></li> <li><a href="#common-implementation-patterns">Common Implementation Patterns</a></li> <li><a href="#conclusion">Conclusion</a></li></ul></li></ul> <h1 id="solid-principles-the-foundation-of-clean-code"><a href="#solid-principles-the-foundation-of-clean-code" class="header-anchor">#</a> SOLID Principles: The Foundation of Clean Code</h1> <p>SOLID principles are fundamental guidelines that make software systems easier to maintain and extend. Let's explore each principle with practical Go examples.</p> <h2 id="single-responsibility-principle-srp"><a href="#single-responsibility-principle-srp" class="header-anchor">#</a> Single Responsibility Principle (SRP)</h2> <p>A class should have only one reason to change. In other words, a class should have only one job.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token comment">// Bad Example</span>
+<span class="token keyword">type</span> UserService <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    db <span class="token operator">*</span>sql<span class="token punctuation">.</span>DB
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>s <span class="token operator">*</span>UserService<span class="token punctuation">)</span> <span class="token function">SaveUser</span><span class="token punctuation">(</span>user User<span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Handles database operations</span>
+    <span class="token comment">// Sends welcome email</span>
+    <span class="token comment">// Logs user activity</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good Example</span>
+<span class="token keyword">type</span> UserRepository <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    db <span class="token operator">*</span>sql<span class="token punctuation">.</span>DB
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> EmailService <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    smtpClient <span class="token operator">*</span>smtp<span class="token punctuation">.</span>Client
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> ActivityLogger <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    logger <span class="token operator">*</span>log<span class="token punctuation">.</span>Logger
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>r <span class="token operator">*</span>UserRepository<span class="token punctuation">)</span> <span class="token function">SaveUser</span><span class="token punctuation">(</span>user User<span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Only handles database operations</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>e <span class="token operator">*</span>EmailService<span class="token punctuation">)</span> <span class="token function">SendWelcomeEmail</span><span class="token punctuation">(</span>user User<span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Only handles email sending</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>l <span class="token operator">*</span>ActivityLogger<span class="token punctuation">)</span> <span class="token function">LogUserActivity</span><span class="token punctuation">(</span>user User<span class="token punctuation">,</span> activity <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Only handles logging</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="open-closed-principle-ocp"><a href="#open-closed-principle-ocp" class="header-anchor">#</a> Open-Closed Principle (OCP)</h2> <p>Software entities should be open for extension but closed for modification.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token comment">// Bad Example</span>
+<span class="token keyword">type</span> PaymentProcessor <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p <span class="token operator">*</span>PaymentProcessor<span class="token punctuation">)</span> <span class="token function">ProcessPayment</span><span class="token punctuation">(</span>paymentType <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> paymentType <span class="token operator">==</span> <span class="token string">&quot;credit&quot;</span> <span class="token punctuation">{</span>
+        <span class="token comment">// Process credit payment</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> paymentType <span class="token operator">==</span> <span class="token string">&quot;debit&quot;</span> <span class="token punctuation">{</span>
+        <span class="token comment">// Process debit payment</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good Example</span>
+<span class="token keyword">type</span> PaymentMethod <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Process</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> CreditPayment <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>c <span class="token operator">*</span>CreditPayment<span class="token punctuation">)</span> <span class="token function">Process</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Process credit payment</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> DebitPayment <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>d <span class="token operator">*</span>DebitPayment<span class="token punctuation">)</span> <span class="token function">Process</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Process debit payment</span>
+    <span class="token keyword">return</span> <span class="token boolean">nil</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> PaymentProcessor <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    method PaymentMethod
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p <span class="token operator">*</span>PaymentProcessor<span class="token punctuation">)</span> <span class="token function">ProcessPayment</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">error</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> p<span class="token punctuation">.</span>method<span class="token punctuation">.</span><span class="token function">Process</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="liskov-substitution-principle-lsp"><a href="#liskov-substitution-principle-lsp" class="header-anchor">#</a> Liskov Substitution Principle (LSP)</h2> <p>Objects should be replaceable with their subtypes without affecting program correctness.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> Bird <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Bad Example - Violates LSP</span>
+<span class="token keyword">type</span> Penguin <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p <span class="token operator">*</span>Penguin<span class="token punctuation">)</span> <span class="token function">Fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token string">&quot;I can't fly!&quot;</span> <span class="token comment">// Unexpected behavior</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good Example</span>
+<span class="token keyword">type</span> FlyingBird <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> SwimmingBird <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Swim</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Duck <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>d <span class="token operator">*</span>Duck<span class="token punctuation">)</span> <span class="token function">Fly</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;Flying&quot;</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>d <span class="token operator">*</span>Duck<span class="token punctuation">)</span> <span class="token function">Swim</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;Swimming&quot;</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Penguin <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p <span class="token operator">*</span>Penguin<span class="token punctuation">)</span> <span class="token function">Swim</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;Swimming&quot;</span> <span class="token punctuation">}</span>
+</code></pre></div><h2 id="interface-segregation-principle-isp"><a href="#interface-segregation-principle-isp" class="header-anchor">#</a> Interface Segregation Principle (ISP)</h2> <p>Clients should not be forced to depend on interfaces they don't use.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token comment">// Bad Example</span>
+<span class="token keyword">type</span> Worker <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Work</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token function">Eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good Example</span>
+<span class="token keyword">type</span> Workable <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Work</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Eatable <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Sleepable <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Human <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h <span class="token operator">*</span>Human<span class="token punctuation">)</span> <span class="token function">Work</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* ... */</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h <span class="token operator">*</span>Human<span class="token punctuation">)</span> <span class="token function">Eat</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* ... */</span> <span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>h <span class="token operator">*</span>Human<span class="token punctuation">)</span> <span class="token function">Sleep</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* ... */</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Robot <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>r <span class="token operator">*</span>Robot<span class="token punctuation">)</span> <span class="token function">Work</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">/* ... */</span> <span class="token punctuation">}</span>
+</code></pre></div><h2 id="dependency-inversion-principle-dip"><a href="#dependency-inversion-principle-dip" class="header-anchor">#</a> Dependency Inversion Principle (DIP)</h2> <p>High-level modules should not depend on low-level modules. Both should depend on abstractions.</p> <div class="language-go extra-class"><pre class="language-go"><code><span class="token comment">// Bad Example</span>
+<span class="token keyword">type</span> MySQL <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>m <span class="token operator">*</span>MySQL<span class="token punctuation">)</span> <span class="token function">Query</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;MySQL query&quot;</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> UserService <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    database MySQL <span class="token comment">// Tightly coupled</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Good Example</span>
+<span class="token keyword">type</span> Database <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Query</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> MySQL <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>m <span class="token operator">*</span>MySQL<span class="token punctuation">)</span> <span class="token function">Query</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;MySQL query&quot;</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> PostgreSQL <span class="token keyword">struct</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>p <span class="token operator">*</span>PostgreSQL<span class="token punctuation">)</span> <span class="token function">Query</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token builtin">string</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token string">&quot;PostgreSQL query&quot;</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> UserService <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    database Database <span class="token comment">// Depends on abstraction</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="real-world-benefits"><a href="#real-world-benefits" class="header-anchor">#</a> Real-World Benefits</h2> <ol><li><p><strong>Maintainability</strong></p> <ul><li>Easier to understand and modify code</li> <li>Reduced risk when making changes</li> <li>Clear separation of concerns</li></ul></li> <li><p><strong>Testability</strong></p> <ul><li>Simplified unit testing</li> <li>Better mock object creation</li> <li>Isolated component testing</li></ul></li> <li><p><strong>Scalability</strong></p> <ul><li>Easier to add new features</li> <li>Better code reuse</li> <li>Reduced technical debt</li></ul></li> <li><p><strong>Team Collaboration</strong></p> <ul><li>Clear boundaries between components</li> <li>Better code organization</li> <li>Improved code review process</li></ul></li></ol> <h2 id="common-implementation-patterns"><a href="#common-implementation-patterns" class="header-anchor">#</a> Common Implementation Patterns</h2> <ol><li><strong>Dependency Injection</strong></li></ol> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> Service <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    repo Repository
+    logger Logger
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token function">NewService</span><span class="token punctuation">(</span>repo Repository<span class="token punctuation">,</span> logger Logger<span class="token punctuation">)</span> <span class="token operator">*</span>Service <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token operator">&amp;</span>Service<span class="token punctuation">{</span>
+        repo<span class="token punctuation">:</span> repo<span class="token punctuation">,</span>
+        logger<span class="token punctuation">:</span> logger<span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="2"><li><strong>Factory Pattern</strong></li></ol> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">func</span> <span class="token function">CreatePaymentMethod</span><span class="token punctuation">(</span>method <span class="token builtin">string</span><span class="token punctuation">)</span> PaymentMethod <span class="token punctuation">{</span>
+    <span class="token keyword">switch</span> method <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">&quot;credit&quot;</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token operator">&amp;</span>CreditPayment<span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token keyword">case</span> <span class="token string">&quot;debit&quot;</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token operator">&amp;</span>DebitPayment<span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token keyword">default</span><span class="token punctuation">:</span>
+        <span class="token keyword">return</span> <span class="token boolean">nil</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol start="3"><li><strong>Strategy Pattern</strong></li></ol> <div class="language-go extra-class"><pre class="language-go"><code><span class="token keyword">type</span> ValidationStrategy <span class="token keyword">interface</span> <span class="token punctuation">{</span>
+    <span class="token function">Validate</span><span class="token punctuation">(</span>data <span class="token builtin">string</span><span class="token punctuation">)</span> <span class="token builtin">bool</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Validator <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+    strategy ValidationStrategy
+<span class="token punctuation">}</span>
+
+<span class="token keyword">func</span> <span class="token punctuation">(</span>v <span class="token operator">*</span>Validator<span class="token punctuation">)</span> <span class="token function">SetStrategy</span><span class="token punctuation">(</span>strategy ValidationStrategy<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    v<span class="token punctuation">.</span>strategy <span class="token operator">=</span> strategy
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="conclusion"><a href="#conclusion" class="header-anchor">#</a> Conclusion</h2> <p>SOLID principles provide a robust foundation for creating maintainable, scalable, and testable software systems. By following these principles:</p> <ul><li>Your code becomes more flexible and adaptable</li> <li>Teams can work more efficiently</li> <li>Testing becomes more straightforward</li> <li>Future changes are less likely to break existing functionality</li></ul> <p>Remember that SOLID principles are guidelines, not rules. Apply them thoughtfully based on your specific context and requirements.</p> <p>#programming #softwareengineering #golang #cleancode #codequality</p></div> <!----></div></article> </div></main> <footer class="footer bg-gradient-6 text-white py-8 md:py-16 mt-auto" data-v-679ddb7f><div class="grid grid-cols-12 grid-margins" data-v-679ddb7f><div id="newsletter-form" class="flex flex-col lg:flex-row lg:justify-between lg:items-center col-start-1 col-span-12 lg:pb-20" data-v-679ddb7f><div class="flex-shrink lg:max-w-sm xl:max-w-xl mb-4 lg:mb-0"><h2 class="type-h2">Stay informed</h2> <p class="mt-2 mb-6 mr-2">
+      Sign up for the Diki Haryadi newsletter (<a href="/design-principle/" aria-current="page" class="text-blueGreenLight hover:underline router-link-exact-active router-link-active">example</a>) for the latest on releases, upcoming developments, community events,
+      and more.
+    </p> <a target="_blank" href="https://dikiharyadi.com/newsletter"><button type="button" class="px-3 py-2 text-white bg-blueGreen font-semibold rounded hover:bg-blueGreenScreen transition duration-300">
+        Sign up
+      </button></a></div> <div id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="flex lg:justify-end max-w-lg xl:w-2/5"><div id="mc_embed_signup_scroll" class="grid gric-col-2 w-full"><div class="fields flex flex-col sm:flex-row col-start-1 col-span-2"><div class="sm:ml-4 sm:pt-0"></div></div></div></div></div> <div class="col-start-0 md:col-start-1 col-span-12 md:col-span-12" data-v-679ddb7f><div class="flex flex-col lg:flex-row lg:items-top lg:justify-between" data-v-679ddb7f><div class="flex flex-col lg:flex-row lg:items-center mb-4 md:mb-8 lg:mb-0" data-v-679ddb7f><ul class="flex flex-col sm:flex-row mt-4 md:mt-8 lg:mt-0" data-v-679ddb7f><li class="sm:mr-10 last:mr-0" data-v-679ddb7f><a href="/" class="type-p3 hover:opacity-75 transition transition-opacity duration-300 ease-in-out" data-v-679ddb7f>
+  Blog &amp; news
+</a> <!----></li></ul></div> <div class="flex items-center" data-v-679ddb7f><a href="https://github.com/diki-haryadi" target="_blank" rel="noopener noreferrer" class="mr-5 last:mr-0"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--github-icon" aria-hidden="false" viewBox="0 0 35 35" class="w-8 h-8 fill-current hover:opacity-75 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--github-icon"><title id="svg-title--github-icon">Github</title> <use href="#github-icon"></use></svg></a><a href="https://www.dikiharyadi.com" target="_blank" rel="noopener noreferrer" class="mr-5 last:mr-0"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--youtube-icon" aria-hidden="false" viewBox="0 0 32 32" class="w-8 h-8 fill-current hover:opacity-75 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--youtube-icon"><title id="svg-title--youtube-icon">YouTube</title> <use href="#youtube-icon"></use></svg></a><a href="http://twitter.com/dikiharyadix" target="_blank" rel="noopener noreferrer" class="mr-5 last:mr-0"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--twitter-icon" aria-hidden="false" viewBox="0 0 24 24" class="w-8 h-8 fill-current hover:opacity-75 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--twitter-icon"><title id="svg-title--twitter-icon">Twitter</title> <use href="#twitter-icon"></use></svg></a><a href="https://www.linkedin.com/in/dikiharyadi/" target="_blank" rel="noopener noreferrer" class="mr-5 last:mr-0"><svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title--linkedin-icon" aria-hidden="false" viewBox="0 0 34 34" class="w-8 h-8 fill-current hover:opacity-75 transition transition-opacity duration-300 ease-in-out svg-icon svg-icon--linkedin-icon"><title id="svg-title--linkedin-icon">LinkedIn</title> <use href="#linkedin-icon"></use></svg></a></div></div> <div class="flex items-center text-sm mt-4 md:mt-8" data-v-679ddb7f><span>
+    © 2024
+    <a href="https://dikiharyadi.com" target="_blank" class="text-blueGreenLight hover:underline">
+      Diki Haryadi.</a>
+    All rights reserved.
+  </span></div></div></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e15ac4b2.js" defer></script><script src="/assets/js/4.081b54dc.js" defer></script><script src="/assets/js/34.84fbf56a.js" defer></script>
+  </body>
+</html>
