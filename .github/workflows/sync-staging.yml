@@ -19,7 +19,7 @@ on:
   # Only trigger the update when main is updated
   push:
     # Branch which the target branch will sync to
-    branches: main
+    branches: serve
 
 jobs:
   sync:
