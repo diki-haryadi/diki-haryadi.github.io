@@ -4,7 +4,7 @@
         <title>Tech Blog, Microservices, Backend Development &amp; more</title>
         <link>https://blog.dikiharyadi.com</link>
         <description>Everything you need to know about modern backend technologies and microservices in one place — from in-depth blog posts, technical tutorials, to microservices and backend development.</description>
-        <lastBuildDate>Sun, 26 Jan 2025 06:49:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jan 2025 08:23:06 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <item>
@@ -13,6 +13,13 @@
             <guid>https://blog.dikiharyadi.com/design-principle/</guid>
             <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Building Maintainable Software Systems]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Tokopedia Microservices Clone]]></title>
+            <link>https://blog.dikiharyadi.com/introducing-tokopedia-microservices-clone/</link>
+            <guid>https://blog.dikiharyadi.com/introducing-tokopedia-microservices-clone/</guid>
+            <pubDate>Sun, 26 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Comprehensive E-Commerce Platform Architecture]]></description>
         </item>
         <item>
             <title><![CDATA[Understanding Software Design Patterns]]></title>
@@ -52,6 +59,13 @@
             <description><![CDATA[Hi, I am Diki Haryadi]]></description>
             <enclosure url="https://visitcount.itsvg.in/api?id=dikiharyadi.com&amp;icon=0&amp;color=1">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Project Catalog]]></title>
+            <link>https://blog.dikiharyadi.com/projects/</link>
+            <guid>https://blog.dikiharyadi.com/projects/</guid>
+            <pubDate>Thu, 01 Aug 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A Comprehensive E-Commerce Platform Architecture]]></description>
         </item>
     </channel>
 </rss>
