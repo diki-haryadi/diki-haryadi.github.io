@@ -5,6 +5,7 @@ permalink: '/about-me/'
 date: 2024-11-29
 header_image: '/banner.png'
 tags:
+- blog
 - about me
 - personal
 ---
